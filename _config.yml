@@ -1,1 +1,5 @@
 theme: jekyll-theme-minimal
+title: Buy It Together
+description: An aggregation system of potential consumers interested in given product
+logo: bit.png
+show_downloads: true

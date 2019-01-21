@@ -1,7 +1,7 @@
 # Buy It Together
 
 ## Bit client
-[Download Android BIT client version 1.0.0]{https://github.com/Buy-It-Together/Android-BIT-Client/releases/download/v1.0.0/BITv1.0.0.apk}
+[Download Android BIT client version 1.0.0](https://github.com/Buy-It-Together/Android-BIT-Client/releases/download/v1.0.0/BITv1.0.0.apk)
 
 ## Specification of requirements
 The application aggregates consumers who want to buy the same product online. Aggregation takes place in the area designated by the recipients. After summing up user offers, the system sends a chat invitation. The user can preview the suggested location of the meeting. After acceptance of the chat invitation, users can communicate in real time.

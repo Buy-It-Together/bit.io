@@ -1,6 +1,6 @@
 # Buy It Together
 
-{% youtube q-Rxgnw7PV4 500 400 %}
+<iframe width="560" height="315" src="https://www.youtube.com/embed/q-Rxgnw7PV4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 ## Bit client
 [Download Android BIT client version 1.0.0](https://github.com/Buy-It-Together/Android-BIT-Client/releases/download/v1.0.0/BITv1.0.0.apk)

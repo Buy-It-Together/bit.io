@@ -1,9 +1,47 @@
 # Buy It Together
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/q-Rxgnw7PV4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+Buy It Together to aplikacja do agregacji ofert użytkowników na wyznaczonym przez nich samych terenie. Przykładowo jeżeli jesteśmy zainteresowani kupnem danego produku dodajemy nową ofertę w aplikacji mobilnej. Aplikacja pozwala na znalezienie osób zainteresowanych danym produktem na wyznaczonym terenie. Dzięki czemu możemy kupić przedmioty wspólnie. Zaszczędzamy na kosztach przesyłki, a w niektórych przypadkach można uzyskać promocję od sprzedającego.  
 
 ## Bit client
 [Download Android BIT client version 1.0.0](https://github.com/Buy-It-Together/Android-BIT-Client/releases/download/v1.0.0/BITv1.0.0.apk)
+
+## Wymagania biznesowe
+Aplikacja agreguje konsumentów chcących kupić drogą internetową ten sam produkt. Agregacja odbywa się na terenie wyznaczonym przez odbiorców. Po zsumowaniu ofert użytkowników system wysyła zaproszenie do czatu. Użytkownik ma możliwość podglądu sugerowanej lokalizacji spotkania. Po akceptacji zaproszenia do czatu użytkownicy mogą się komunikować w czasie rzeczywistym. Interfejs aplikacji jest w języku angielskim.
+
+## Dziedzinowy słownik pojęć
+-	Użytkownik – osoba korzystająca z aplikacji
+-	Link – adres do strony internetowej z ofertą.
+-	Oferta – zdefiniowana przez użytkownika chęć nabycia danego przedmiotu wskazanego pod podanym wcześniej linkiem.
+-	Czat – definiuje zbiór użytkowników, którzy chcą nabyć dany produkt. 
+-	Zaproszenie do czatu – informacja o możliwości dołączenia do czatu. 
+
+## Wymagania funkcjonalne
+- Użytkownik jest uwierzytelniany na podstawie adresu email oraz hasła. Podczas procesu rejestracji użytkownik musi kliknąć w link aktywacyjny wysłany na podany wcześniej adres email.
+-	Hasło użytkownika jest zapisywane w bazie danych w sposób niejawny
+-	Każdy użytkownik może dodać ofertę. Wprowadzone dane muszą podlegać walidacji. Adres docelowy ma być zamieniany z formy czytelnej dla użytkownika na współrzędne geograficzne. Podczas definiowania oferty należy wypełnić pola:
+  - Link do przedmiotu.
+  - Adres docelowy. 
+  -	Dystans, który użytkownik może pokonać w celu odebrania przedmiotu.
+  - Liczbę produktów, których użytkownik chcę nabyć.
+  - Liczbę produktów potrzebnych do uzyskania promocji.
+  -	Datę ważności oferty.
+-	Każdy użytkownik może przeglądać swoje oferty. 
+-	Po zagregowaniu ofert użytkownik dostaje zaproszenie do czatu. Użytkownik może zobaczyć proponowaną lokalizację przed zaakceptowaniem zaproszenia.
+-	Po akceptacji zaproszenia użytkownik ma możliwość komunikacji się w czasie rzeczywistym z pozostałymi użytkownikami czatu. 
+## Wymagania niefunkcjonalne
+-	Użytkownik powinien mieć możliwość korzystania z aplikacji na platformach mobilnych z systemem Android. 
+-	Użytkowanie systemu powinno być intuicyjne i wygodne dla użytkownika.
+-	Aplikacja nie powinna zbędnie zużywać baterii.
+-	System powinien być dostępny o każdej porze dnia.
+-	Aplikacja powinna korzystać z darmowych rozwiązań.
+-	System powinien pozwolić na zaimplementowanie klientów na inne platformy niż Android bez ingerowania w kod źródłowy serwera.
+## Reguły biznesowe
+- Jeżeli czas zalogowanego użytkownika do aplikacji przekroczy domyślny zdefiniowany czas sesji po stronie serwera użytkownik musi powtórzyć operację logowania się.
+- Brak limitu na dodawanie ofert przez użytkownika. 
+- Brak limitu wysyłanych przez system zaproszeń dotyczących ofert.
+- Tylko jedno zaproszenie odnoszące się do oferty może być zaakceptowane. 
+- Osoba niezalogowana do systemu nie ma możliwości korzystania z niego. Wyjątkiem są funkcjonalności rejestrowania oraz logowania. 
 
 ## Specification of requirements
 The application aggregates consumers who want to buy the same product online. Aggregation takes place in the area designated by the recipients. After summing up user offers, the system sends a chat invitation. The user can preview the suggested location of the meeting. After acceptance of the chat invitation, users can communicate in real time.

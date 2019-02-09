@@ -1,6 +1,7 @@
 # Buy It Together
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/q-Rxgnw7PV4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
 Buy It Together to aplikacja do agregacji ofert użytkowników na wyznaczonym przez nich samych terenie. Przykładowo jeżeli jesteśmy zainteresowani kupnem danego produku dodajemy nową ofertę w aplikacji mobilnej. Aplikacja pozwala na znalezienie osób zainteresowanych danym produktem na wyznaczonym terenie. Dzięki czemu możemy kupić przedmioty wspólnie. Zaszczędzamy na kosztach przesyłki, a w niektórych przypadkach można uzyskać promocję od sprzedającego.  
 
 ## Bit client

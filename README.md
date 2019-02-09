@@ -44,6 +44,9 @@ Aplikacja agreguje konsumentów chcących kupić drogą internetową ten sam pro
 - Tylko jedno zaproszenie odnoszące się do oferty może być zaakceptowane. 
 - Osoba niezalogowana do systemu nie ma możliwości korzystania z niego. Wyjątkiem są funkcjonalności rejestrowania oraz logowania. 
 
+## Planowany rozwój aplikacji
+Uzupełnieniem aplikacji mogłyby być punkty lojalnościowe za dobrą współpracę przyznawane przez i dla użytkowników, wprowadzenie mikropłatności związanych z zakupem produktów w ofercie czy też wyszukiwanie obecnych ofert w okolicy. Dodatkowo wprowadzenie reklam spersonalizowanych, które generują duży zysk, na użytkownika mogłoby być źródłem utrzymania serwera aplikacji. Kolejnym etapem rozwoju aplikacji mogłaby być współpraca z firmami kurierskimi. Pozwoliłoby to na wysyłanie dużej paczki przez sprzedawcę a następnie na jej rozdzielenie na mniejsze części przez kuriera, co wyeliminowałoby potrzebę spotkana się użytkowników w celu rozdystrybuowania przedmiotów. Wprowadzenie nowych aplikacji klienckich obsługujących pozostałe platformy mogłoby się przyczynić do wzrostu społeczności aplikacji. Zaimplementowany silnik można również wykorzystać w aplikacjach bazujących na podobnej idei wyszukiwania ofert. Obecny system można w łatwy sposób przekształcić w system agregowania chętnych osób do różnych gier np.: piłka nożna, siatkówka, szachy itp. 
+
 ## Specification of requirements
 The application aggregates consumers who want to buy the same product online. Aggregation takes place in the area designated by the recipients. After summing up user offers, the system sends a chat invitation. The user can preview the suggested location of the meeting. After acceptance of the chat invitation, users can communicate in real time.
 
